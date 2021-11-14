@@ -1,0 +1,154 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #5A2989;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+input {
+  background-color: #48216E;
+  border: none;
+  padding: 1rem;
+  padding-right: 4.3rem;
+  width: 375px;
+  border-radius: 15px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+input::placeholder {
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  border: none;
+  padding: 1rem;
+  border-radius: 15px;
+  margin-left: -4rem;
+  text-transform: uppercase;
+  color: #48216E;
+  cursor: pointer;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+    outline: none;
+}
+
+button:focus {
+    outline: 0 !important;
+}
+
+
+.rsu {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #48216E;
+  border-radius: 15px;
+  padding: 1rem 2rem;
+  width: 70%;
+}
+
+.rsu span {
+  font-size: .8rem;
+  text-transform:uppercase;
+  text-overflow: anywhere;
+}
+
+.rsu__container {
+  display: flex;
+  align-items: center;
+}
+
+.rsu__container span {
+  flex: 0 0 40%;
+  overflow: auto;
+}
+.rsu__container p {
+  flex: 0 0 15%;
+}
+
+.arrow {
+  color: white;
+  height: 2rem;
+  width: 2rem;
+  flex: 0 0 5%;
+}
+
+a {
+  font-size: .8rem;
+  color: white;
+}
+
+.surl {
+
+
+
+}
+
+.surl-container {
+  background-color: rgba(255, 255, 255, 0.473);
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  margin-top: 2rem;
+}
+
+footer {
+  bottom: 0;
+  position: absolute;
+  margin-top: auto;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cre {
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-top: .5rem;
+  font-weight: 600;
+}
+
+.bat-logo {
+  height: 4rem;
+  margin-bottom: 1rem;
+}
